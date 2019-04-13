@@ -12,10 +12,10 @@
 <body class="bg-grey-lighter font-sans">
 
 <!--container-->
-
+<!--navigation-->
 <div class=" bg-white ">
-    <div class="container  mx-auto items-center flex py-2">
-        <nav class="w-2/5">
+    <div class="container  mx-auto items-center flex flex-col lg:flex-row py-2">
+        <nav class="w-full lg:w-2/5">
             <a href="#"
                class="border-b-2 border-solid border-transparent  hover:border-teal  hover:text-teal text-sm font-semibold mr-2 pb-2 text-grey-darker"><i
                     class="fa fa-home fa-sm"></i>Home</a>
@@ -30,10 +30,10 @@
                     class="fa fa-envelope fa-sm"></i>Messages</a>
 
         </nav>
-        <nav class="w-1/5 text-center">
+        <nav class="w-full lg:w-1/5 my-4 lg:-my-0 text-center">
             <a href="#"><i class="fab fa-twitter fa-lg text-blue-light"></i></a>
         </nav>
-        <div class="w-2/5 flex justify-end">
+        <div class="w-full lg:w-2/5 flex lg:justify-end justify-center">
             <div class="relative">
                 <input autofocus="off" type="text"
                        class="outline-none text-sm border-none bg-grey-lighter rounded-full h-8 w-48 px-1 py-1"
@@ -57,17 +57,21 @@
     </div>
 </div>
 
+
+
+
+
+<!--Hero-->
 <div class="hero " style="height: 28rem">
 </div>
 
 <div class="bg-white shadow">
-    <div class="container mx-auto flex items-center py-1 relative">
-
-        <div class="w-1/4"><a></a>
+    <div class="container mx-auto flex flex-col lg:flex-row  items-center py-1 lg:relative">
+        <div class="w-full lg:w-1/4"><a></a>
             <a><img src=https://via.placeholder.com/150/#bdc3c7"
-                    class="shadow h-28 w-28 rounded-full absolute pin-l pin-t -mt-20 " alt="Avatar"></a>
+                    class="shadow h-28 w-28 rounded-full lg:absolute lg:pin-l lg:pin-t -mt-20 " alt="Avatar"></a>
         </div>
-        <div class="w-1/2">
+        <div class="w-full lg:w-1/2">
             <ul class="list-reset flex">
                 <li class="text-center  mx-4 border-b-2 border-solid border-transparent  hover:border-teal  hover:text-teal">
                     <a href="#" class="text-grey-dark ">
@@ -105,7 +109,7 @@
 
             </ul>
         </div>
-        <div class="w-1/4 flex justify-end items-center ">
+        <div class="w-full lg:w-1/4 flex p-1 lg:justify-end items-center ">
             <button class=" text-white rounded-full bg-teal hover:bg-red-lighter hover:text-white py-2 px-2">Fallowing
             </button>
             <div class="py-2 px-2">
@@ -113,12 +117,10 @@
             </div>
         </div>
     </div>
-
 </div>
 
-<div class="container flex mx-auto mt-8">
-
-    <div class="w-1/4 pr-6 mt-8 mb-4">
+<div class="container flex flex-col lg:flex-row mx-auto mt-8">
+    <div class="w-full lg:w-1/4 pr-6 mt-8 mb-4 pr-2 pl-2">
         <h2 class="font-bold">TailWind Css</h2>
         <small class="text-grey-dark">@tailwindcss</small>
         <div>
@@ -163,7 +165,7 @@
 
         </div>
     </div>
-    <div class="w-1/2 pr-2">
+    <div class="w-full lg:w-1/2 pr-2 pl-2">
 
         <div class="bg-white flex p-2">
             <div class="flex-1">
@@ -178,7 +180,7 @@
         </div>
         <div class="hover:bg-grey-lightest bg-white p-2 mt-1 ">
             <p class="text-grey ml-8 text-sm"><i class="fas fa-retweet"></i> Tailwind CSS Retweeted</p>
-            <div class="container  flex items-center ">
+            <div class="container  flex ">
                 <div style="width: 12%">
                     <a><img src=https://via.placeholder.com/150/#bdc3c7" class="h-12 w-12 rounded-full  " alt="Avatar"></a>
                 </div>
@@ -186,7 +188,7 @@
                     <p class="text-grey  text-sm"><a href="#" class="hover:text-teal text-black font-bold">Jeremy D. Hoover @jeremydouglas . Apr 10
                     </a></p>
                     <p class="text-black  text-sm">You know, it’s the little things in life, like getting your entire sites’ CSS down to 4KB after compression! Thank you @tailwindcss + Purge CSS.</p>
-
+                    <a><img src=https://via.placeholder.com/600/#bdc3c7" class="h-48 w-full rounded  " alt="Avatar"></a>
                     <div class="flex justify-start mt-1">
                         <div class="w-1/4">
                             <a href="#" class="text-grey hover:text-blue-light"><i class="far fa-comment"></i> 3</a>
@@ -259,7 +261,7 @@
         </div>
 
     </div>
-    <div class="w-1/4">
+    <div class="w-full lg:w-1/4 pr-2 pl-2">
         <div class="bg-white ">
             <h3 class="p-4 ">New to Twitter?</h3>
             <p class="text-grey pl-4  pr-4    text-md ">Sign up now to get your own personalized timeline!</p>
@@ -410,7 +412,6 @@
 
 
     </div>
-
 </div>
 
 
